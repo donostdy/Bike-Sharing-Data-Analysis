@@ -56,3 +56,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+st.pyplot(fig)
+
+st.caption('Copyright © RD 2023')
