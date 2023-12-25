@@ -4,6 +4,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
+link = "https://raw.githubusercontent.com/donostdy/Bike-Sharing-Data-Analysis/main/day.csv"
+df = pd.read_csv(link)
+
 def main():
     st.title('Bike Sharing Data Visualization')
 
